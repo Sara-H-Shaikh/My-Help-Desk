@@ -1,0 +1,168 @@
+body{
+    text-align: center;
+    background: linear-gradient( #4287f5 0%,#4bf542 100%);
+}
+html
+{
+    scroll-behavior: smooth;
+}
+
+img{
+  width:300;
+  height:300;
+    border-radius: 50%;
+    
+}
+#myname{
+   font-family: 'Courgette', cursive;
+}
+#welcome{
+    padding:70px;
+    text-align:center;
+    font-size:40px;
+    text-shadow: 2px 3px black;
+}
+h1{ 
+  color:silver;
+}
+
+span {
+ color: darkgreen;
+}
+p{
+  font-size:18px;
+  color: blue;
+    
+}
+h2{
+  font-size:50px;
+  color:gold;
+}
+.line{
+    height: 6px;
+    background-color: black;
+    width:70px;
+    margin:8px auto;
+}
+#bio{
+    padding:20px;
+    background: pink;
+    color: black;
+}
+
+h3 {
+    font-size: 30px;
+}
+
+.menu {
+  position:sticky;
+  top:0;
+  z-index:99999;
+  overflow: hidden;
+  background-color: black;
+}
+
+.link {
+/* Make the menu items float left*/
+  float: left;
+}
+
+.link a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.link a:hover {
+  background-color: #111;
+}
+
+#Mywork a, #References a{
+    font-size: 30px;
+    color: black;
+    
+}
+
+h4 {
+    color: blue;
+    font-size: 20px;
+}
+
+h5 {
+    font-size: 30px;
+    color: gold;
+}
+
+.button {
+  background-color: gold;
+  border-color: 10px blue;
+  padding: 8px 32px;
+  text-align: center;
+  display: inline-block;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+a
+{
+
+text-decoration: none;
+}
+
+#picture {
+    width: auto;
+    height: 300px;
+    border-radius: 0%;
+    margin: 20px;
+}
+
+.inspiration {
+    background: #737883;
+    padding-top: 20px;
+}
+
+img {
+    transition: transform .2s;
+    border: 10px solid gold;
+}
+
+img:hover {
+    /*Give transform property to scale to 0.9*/
+    transform: scale(0.9);
+    
+}
+
+#contact
+{
+background: firebrick;
+}
+
+#contact iframe
+{
+    width: 100%;
+    height: 50%;
+}
+
+.contact_1 h3
+{
+    display: inline;
+}
+.contact_1 a
+{
+    color: white;
+    text-shadow: none;
+}
+.announcement{
+  background-color: white;
+  width: 100%;
+  height: 30px;
+  font-size: 26;
+  }
+  
+  h6
+  {
+    font-size: 24px;
+    color: white;
+  }
